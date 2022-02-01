@@ -41,5 +41,8 @@ npm install
 npm run serve
 
 # bonus using browser-sync to refresh the browser automatically
+# install browser-sync
+npm install -D browser-sync
+# run the script
 npm run sync
 ```
