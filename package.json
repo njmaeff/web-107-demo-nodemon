@@ -1,0 +1,21 @@
+{
+  "name": "@njmaeff/web-107-node-server",
+  "version": "0.0.1",
+  "description": "Develop with live server reload",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "sync": "browser-sync start --no-ghost-mode -w --proxy http://localhost:8080  --no-open --files **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njmaeff/web-107-demo-nodemon.git"
+  },
+  "author": "Nik Jmaeff",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "nodemon": "^2.0.15"
+  }
+}
