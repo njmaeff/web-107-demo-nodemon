@@ -26,7 +26,7 @@ Start from this GitHub repo as a template.
 
 ```bash
 cd project-dir
-git clone https://github.com/njmaeff/web-107-node-server.git
+git clone https://github.com/njmaeff/web-107-node-server.git .
 ```
 
 ### Install
